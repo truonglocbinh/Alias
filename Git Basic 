@@ -1,0 +1,28 @@
+git init // init project
+
+git add *.c // add all file has .c extension
+git add LICENSE // add file has name is LICENSE
+git commit -m 'initial project version' // commit
+
+git clone https://github.com/libgit2/libgit2 // clone git repo
+git clone https://github.com/libgit2/libgit2 mylibgit // clone git repo into mylibgit folder
+
+git status // check status of files
+git status -s // short status
+
+git diff //shows you the exact lines added and removed
+git diff --staged // This command compares your staged changes to your last commit
+
+git commit -m "Content of commit"
+git commit --amend //
+
+git rm PROJECTS.md // remove file
+
+git log // show log
+git log -p // show difference introduced in each commit .
+git log -p -2 // 2 is option, number difference wants to see
+git log --stat
+git log --oneline
+
+git reset HEAD CONTRIBUTING.md
+git checkout -- CONTRIBUTING.md

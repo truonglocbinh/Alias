@@ -1,0 +1,43 @@
+# rails
+alias rs="rails s"
+alias rc="rails c"
+alias wp="webpack -w"
+alias faq="cd ~/Desktop/Framgia\ Projects/FAQ"
+
+# system common
+alias c="printf '\n\n\n\n\n\n\n\n\n\n\n\n\n'; clear"
+alias s="sudo"
+alias sa="sudo apt-get"
+alias sai="sudo apt-get install"
+alias svc="sudo service"
+alias ll="ls -la"
+
+#git alias
+alias gd="git diff"
+alias ga="git add"
+alias gs="git status"
+alias gco="git checkout"
+alias gcom="git checkout master"
+alias gcod="git checkout develop"
+alias gcot="git checkout task"
+alias gcm="git commit"
+alias gcm-am="git commit --amend --no-edit"
+alias gl="git log --oneline"
+alias gb="git branch"
+alias gr="git rebase"
+alias grc="git rebase --continue"
+alias grsh="git reset --hard"
+alias gp="git push"
+alias gp-f="git push -f"
+alias gfa="git fetch --all"
+
+#get latest pull and run bundle install, migrate
+alias gud="gcod;gpfd;gco task;grd;bundle install;rake db:migrate;gs"
+
+#framgia
+alias gpfd="git pull framgia develop"
+alias gffd="git fetch framgia develop"
+
+#develop
+alias grd="git rebase develop"
+alias gcod="git checkout develop"
